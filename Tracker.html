@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Randomiser Tracker</title>
+<!--JQuery-->
+<link rel="stylesheet" href="jquery/jquery-ui.css">
+<script src="jquery/external/jquery/jquery.js"></script>
+<script src="jquery/jquery-ui.js"></script>
+<!--Self-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script/items.js"></script>
+<script src="script/chests.js"></script>
+<script src="script/functions.js"></script>
+<script src="script/dungeons.js"></script>
+<script src="script/entrances.js"></script>
+</head>
+<body onload="window.resizeTo(460,670);">
+<script>
+initTracker();
+initStandardMap();
+//initEntranceMap();
+</script>
+<!--<div id="dialog" title="Change Entrance">
+	<select id="entrancecaption">
+		<option>&nbsp;</option>
+	</select>
+</div>-->
+<div class="debug"><button type="button" onclick="debug()">DEBUG</button></div>
+</body>
+</html>
